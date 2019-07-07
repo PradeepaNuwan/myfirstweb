@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en"><!--main root-->
+<head> <!-- meta content-->
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <!--<meta http-equiv="refresh" content="1">-->
+    <link href="images/personal-icon-6.jpg" rel="icon" type="image/jpg">
+    <link rel="stylesheet" href="css/normalize.css">
+    <title>SoftSolutionS-POS System</title>
+    <style>
+        header{
+            width:100%;
+            height: 100px;
+            position: relative;
+            background:linear-gradient(to left,#00123A,#66123A,#ff123A,#66123A,#00123A);
+        }
+        header>div{
+            width:80%;
+            right: 0;
+            height: 100px;
+            position: absolute;
+
+        }
+        header>div>ul{
+            margin: 0;
+            list-style: none;
+            position: absolute;
+            left: 30px;
+            top: 40px;
+        }
+        header>div>ul .b{
+            display: inline;
+
+            padding: 3px;
+            color: white;
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+        }
+        header>div>ul .a{
+            display: inline;
+
+            padding: 3px;
+            color: red;
+            font-family: 'Roboto', sans-serif;
+            font-size: 40px;
+        }
+        header>div>ul .b:hover{
+
+            color: gold;
+            border-bottom: 3px solid gold;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        main>nav{
+            position: fixed;
+            width: 250px;
+            top: 105px;
+            bottom: 45px;
+            left: 5px;
+            background-color: #2a5d1f;
+
+        }
+        main>nav>div{
+            position: absolute;
+            width: 125px;
+            height: 125px;
+            border-radius: 100%;
+            left: 0;
+            right: 0;
+            top :10px;
+            margin: auto;
+            background-color: #00123A;
+
+        }
+        main>nav>div{
+            width:250px;
+            height: 50px;
+            border-radius: 5%;
+        }
+     main>form>fieldset{
+         position: absolute;
+         right: 10px;
+         width: 80%;
+         height: 600px;
+         background-color: #00173d;
+         color: #cccddd;
+
+     }
+
+        footer{
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+            height: 40px;
+            background:linear-gradient(to left,#00123A,#66123A,#ff123A,#66123A,#00123A);
+        }
+        footer>p{
+            margin-bottom: 0;
+            text-align: center;
+            padding-top: 1px;
+            color: white;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+<header>
+    <div>
+        <ul>
+            <li class="b">Customer Management</li>
+            <li class="a">  |  </li>
+            <li class="b">Item Management</li>
+            <li class="a">  |  </li>
+            <li class="b">Order Management</li>
+            <li class="a">  |  </li>
+            <li class="b">Report Builder</li>
+            <li class="a">  |  </li>
+            <li class="b">System Settings</li>
+            <li class="a">  |  </li>
+            <li class="b">About</li>
+        </ul>
+    </div>
+
+</header>
+<main>
+    <nav>
+        <div>
+            <div align="center" style="color: red"> Add Entry</div>
+        </div>
+    </nav>
+    <form action="gedara">
+        <fieldset>
+            <legand>Customer Registration</legand>
+            <pre>
+<label for="customerID">Customer ID</label>                                                 <label for="customerTp">Customer TP</label>
+<input type="text" id="customerID" name="CustomerID" value="C001">                                 <input type="text"  id="customerTp">
+
+<label for="customerName">Customer Name</label>
+<input type="text" id="customerName" name="CustomerName">
+
+<label for="customerAddress">Customer Address</label>
+<input type="text" id="customerAddress" name="CustomerAddress">
+
+<label for="customerSalary">Customer Salary</label>
+<input type="text" id="customerSalary" >
+  </pre>
+        </fieldset>
+    </form>
+
+</main>
+<br>
+<footer>
+    <p>Proudly Presented as Self Assignment</p>
+</footer>
+</body>
+</html>
